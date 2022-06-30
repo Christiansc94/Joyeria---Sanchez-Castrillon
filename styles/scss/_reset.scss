@@ -1,0 +1,11 @@
+*{
+    font-family: 'Libre Caslon Display', serif;
+    padding: 0;
+    margin: 0;
+
+    body{
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+}

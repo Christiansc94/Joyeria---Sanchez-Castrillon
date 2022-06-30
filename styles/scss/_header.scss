@@ -1,0 +1,34 @@
+.topNav{
+    display: grid;
+    justify-items: center;
+    background-color: rgb(255, 215, 221);
+
+    .logo{
+        margin-top: 5px;
+    }
+    #mobile{
+        display: none;
+    }
+
+    .menuNavegacion{
+        display: flex;
+        justify-content: center;
+
+        li{
+            list-style: none;
+            margin: 5px;
+
+            a{
+                color: rgb(74, 74, 0);
+                padding-inline: 20px;
+                text-decoration: none;
+                font-size: 20px;
+
+                &:hover{
+                    background-color: rgb(255, 227, 231);
+                    color: black;
+                }
+            }
+        }
+    }
+}

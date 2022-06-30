@@ -1,0 +1,27 @@
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    .column{
+        width: 30%;
+        padding: 5px;
+
+        .productImage{
+            box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+
+            .content{
+                padding: 0 16px;
+
+                .content::after, .products::after{
+                    content: "";
+                    clear: both;
+                    display: table;
+                }
+            }
+        }
+    }
+
+   
+}
