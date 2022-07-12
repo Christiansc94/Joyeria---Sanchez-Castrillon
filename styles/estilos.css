@@ -103,10 +103,17 @@ footer {
     display: none;
   }
 
-  #mobile {
+  .menuNavegacion, #mobile {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
   }
+}
+form {
+  margin: 15px;
+  padding: 5%;
+}
+
+.who {
+  margin: 20px;
 }/*# sourceMappingURL=estilos.css.map */
