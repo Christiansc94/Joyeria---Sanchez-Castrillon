@@ -98,15 +98,14 @@ footer {
     width: 40%;
     display: inline-block;
   }
-
   #desk, .text {
     display: none;
   }
-
   .menuNavegacion, #mobile {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
 }
 form {
